@@ -1,0 +1,5 @@
+[2025-01-30T21:32:58.595+0530] {processor.py:186} INFO - Started process (PID=6979) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-01-30T21:32:58.596+0530] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2025-01-30T21:32:58.598+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:32:58.598+0530] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-01-30T21:32:58.600+0530] {processor.py:927} WARNING - No viable dags retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2025-01-30T21:32:58.713+0530] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.122 seconds

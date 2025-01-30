@@ -1,0 +1,15 @@
+[2025-01-30T21:33:29.110+0530] {processor.py:186} INFO - Started process (PID=6998) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-01-30T21:33:29.111+0530] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-01-30T21:33:29.113+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.112+0530] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-01-30T21:33:29.122+0530] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-01-30T21:33:29.417+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.416+0530] {override.py:1911} INFO - Created Permission View: can read on DAG:tutorial
+[2025-01-30T21:33:29.426+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.426+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-01-30T21:33:29.433+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.433+0530] {override.py:1911} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-01-30T21:33:29.441+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.441+0530] {override.py:1911} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-01-30T21:33:29.448+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.447+0530] {override.py:1911} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-01-30T21:33:29.454+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.453+0530] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-01-30T21:33:29.460+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.459+0530] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-01-30T21:33:29.460+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.460+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-30T21:33:29.474+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.473+0530] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-01-30T21:33:29.486+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:33:29.485+0530] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-01-29 00:00:00+00:00, run_after=2025-01-30 00:00:00+00:00
+[2025-01-30T21:33:29.504+0530] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.398 seconds

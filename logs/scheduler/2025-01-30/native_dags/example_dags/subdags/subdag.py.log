@@ -1,0 +1,5 @@
+[2025-01-30T21:32:50.795+0530] {processor.py:186} INFO - Started process (PID=6962) to work on /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-30T21:32:50.797+0530] {processor.py:914} INFO - Processing file /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2025-01-30T21:32:50.799+0530] {logging_mixin.py:190} INFO - [2025-01-30T21:32:50.798+0530] {dagbag.py:588} INFO - Filling up the DagBag from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-30T21:32:50.801+0530] {processor.py:927} WARNING - No viable dags retrieved from /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2025-01-30T21:32:50.916+0530] {processor.py:208} INFO - Processing /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.126 seconds
