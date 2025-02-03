@@ -17,13 +17,13 @@ def example_task_dependency():
         A simple Extract task to get data ready for the rest of the data
         pipeline, by reading the data from a file into a pandas dataframe
         """
-        order_data_file = "/Users/keertirao/Workspace/airflow/tmp/order_data.csv"
+        order_data_file = "/Users/prashantsingh/workspace/apache-airflow-2.10.4/airflow/dags/files/order_data.csv"
         order_data_df = pd.read_csv(order_data_file)
         # print(order_data_df)
         return order_data_df
 
 
-    file_task = FileSensor(task_id="check_file", filepath="/Users/keertirao/Workspace/airflow/tmp/order_data.csv")
+    file_task = FileSensor(task_id="check_file", filepath="/Users/prashantsingh/workspace/apache-airflow-2.10.4/airflow/dags/files/order_data.csv")
     order_data = extract_from_file()
 
     file_task >> order_data

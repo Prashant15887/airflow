@@ -20,5 +20,5 @@ def callable_external_python():
 external_python_task = ExternalPythonOperator(
     task_id="external_python",
     python_callable=callable_external_python,
-    python="/Library/Frameworks/Python.framework/Versions/3.13/bin",
+    python="/Library/Frameworks/Python.framework/Versions/3.12/bin",
 )
