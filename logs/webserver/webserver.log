@@ -1,0 +1,665 @@
+[2025-02-14 21:52:09 +0530] [10121] [INFO] Starting gunicorn 23.0.0
+[2025-02-14 21:52:10 +0530] [10121] [INFO] Listening at: http://0.0.0.0:8080 (10121)
+[2025-02-14 21:52:10 +0530] [10121] [INFO] Using worker: sync
+[2025-02-14 21:52:10 +0530] [10141] [INFO] Booting worker with pid: 10141
+[2025-02-14 21:52:10 +0530] [10142] [INFO] Booting worker with pid: 10142
+[2025-02-14 21:52:10 +0530] [10143] [INFO] Booting worker with pid: 10143
+[2025-02-14 21:52:10 +0530] [10144] [INFO] Booting worker with pid: 10144
+127.0.0.1 - - [14/Feb/2025:21:52:22 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /home HTTP/1.1" 200 670630 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/fontawesome/regular.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/fontawesome/solid.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/fontawesome/brands.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/fontawesome/v4-shims.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/select2/select2.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/select2/select2-bootstrap.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/fontawesome/fontawesome.min.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/ab.css HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/select2/select2.min.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/js/ab.js HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:23 +0530] "GET /static/appbuilder/css/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 0 "http://localhost:8080/static/appbuilder/css/fontawesome/regular.min.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:25 +0530] "GET /static/pin_32.png HTTP/1.1" 200 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /login/ HTTP/1.1" 200 21152 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:28 +0530] "GET /static/appbuilder/css/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 0 "http://localhost:8080/static/appbuilder/css/fontawesome/solid.min.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:33 +0530] "POST /login/ HTTP/1.1" 302 197 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:33 +0530] "GET /home HTTP/1.1" 200 671048 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [14/Feb/2025:21:52:34 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-14 22:08:56 +0530] [10121] [INFO] Handling signal: int
+[2025-02-14 22:08:56 +0530] [10141] [INFO] Worker exiting (pid: 10141)
+[2025-02-14 22:08:56 +0530] [10142] [INFO] Worker exiting (pid: 10142)
+[2025-02-14 22:08:56 +0530] [10144] [INFO] Worker exiting (pid: 10144)
+[2025-02-14 22:08:56 +0530] [10143] [INFO] Worker exiting (pid: 10143)
+[2025-02-14 22:08:58 +0530] [10121] [INFO] Shutting down: Master
+[2025-02-15 18:11:00 +0530] [5287] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 18:11:02 +0530] [5287] [INFO] Listening at: http://0.0.0.0:8080 (5287)
+[2025-02-15 18:11:02 +0530] [5287] [INFO] Using worker: sync
+[2025-02-15 18:11:02 +0530] [5290] [INFO] Booting worker with pid: 5290
+[2025-02-15 18:11:02 +0530] [5291] [INFO] Booting worker with pid: 5291
+[2025-02-15 18:11:02 +0530] [5293] [INFO] Booting worker with pid: 5293
+[2025-02-15 18:11:02 +0530] [5294] [INFO] Booting worker with pid: 5294
+[2025-02-15 18:12:59 +0530] [5287] [INFO] Handling signal: int
+[2025-02-15 18:12:59 +0530] [5290] [INFO] Worker exiting (pid: 5290)
+[2025-02-15 18:12:59 +0530] [5294] [INFO] Worker exiting (pid: 5294)
+[2025-02-15 18:12:59 +0530] [5293] [INFO] Worker exiting (pid: 5293)
+[2025-02-15 18:12:59 +0530] [5291] [INFO] Worker exiting (pid: 5291)
+[2025-02-15 18:13:00 +0530] [5287] [INFO] Shutting down: Master
+[2025-02-15 18:44:31 +0530] [9695] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 18:44:37 +0530] [9695] [INFO] Listening at: http://0.0.0.0:8080 (9695)
+[2025-02-15 18:44:37 +0530] [9695] [INFO] Using worker: sync
+[2025-02-15 18:44:37 +0530] [9728] [INFO] Booting worker with pid: 9728
+[2025-02-15 18:44:38 +0530] [9729] [INFO] Booting worker with pid: 9729
+[2025-02-15 18:44:38 +0530] [9730] [INFO] Booting worker with pid: 9730
+[2025-02-15 18:44:38 +0530] [9731] [INFO] Booting worker with pid: 9731
+127.0.0.1 - - [15/Feb/2025:18:45:05 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /home HTTP/1.1" 200 670630 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:06 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /login/ HTTP/1.1" 200 21152 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:45:17 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:19 +0530] "POST /login/ HTTP/1.1" 302 197 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /home HTTP/1.1" 200 671048 "http://localhost:8080/login/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:18:46:20 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-15 18:47:33 +0530] [9695] [INFO] Handling signal: int
+[2025-02-15 18:47:33 +0530] [9728] [INFO] Worker exiting (pid: 9728)
+[2025-02-15 18:47:33 +0530] [9731] [INFO] Worker exiting (pid: 9731)
+[2025-02-15 18:47:33 +0530] [9729] [INFO] Worker exiting (pid: 9729)
+[2025-02-15 18:47:33 +0530] [9730] [INFO] Worker exiting (pid: 9730)
+[2025-02-15 18:47:34 +0530] [9695] [INFO] Shutting down: Master
+[2025-02-15 19:26:22 +0530] [2451] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 19:26:28 +0530] [2451] [INFO] Listening at: http://0.0.0.0:8080 (2451)
+[2025-02-15 19:26:28 +0530] [2451] [INFO] Using worker: sync
+[2025-02-15 19:26:28 +0530] [2459] [INFO] Booting worker with pid: 2459
+[2025-02-15 19:26:28 +0530] [2460] [INFO] Booting worker with pid: 2460
+[2025-02-15 19:26:28 +0530] [2461] [INFO] Booting worker with pid: 2461
+[2025-02-15 19:26:28 +0530] [2462] [INFO] Booting worker with pid: 2462
+127.0.0.1 - - [15/Feb/2025:19:26:50 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /home HTTP/1.1" 200 671048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:19:26:51 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-15 19:27:24 +0530] [2451] [INFO] Handling signal: int
+[2025-02-15 19:27:24 +0530] [2460] [INFO] Worker exiting (pid: 2460)
+[2025-02-15 19:27:24 +0530] [2459] [INFO] Worker exiting (pid: 2459)
+[2025-02-15 19:27:24 +0530] [2462] [INFO] Worker exiting (pid: 2462)
+[2025-02-15 19:27:24 +0530] [2461] [INFO] Worker exiting (pid: 2461)
+[2025-02-15 19:27:25 +0530] [2451] [INFO] Shutting down: Master
+[2025-02-15 21:32:37 +0530] [5367] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 21:32:38 +0530] [5367] [INFO] Listening at: http://0.0.0.0:8080 (5367)
+[2025-02-15 21:32:38 +0530] [5367] [INFO] Using worker: sync
+[2025-02-15 21:32:38 +0530] [5370] [INFO] Booting worker with pid: 5370
+[2025-02-15 21:32:38 +0530] [5371] [INFO] Booting worker with pid: 5371
+[2025-02-15 21:32:38 +0530] [5372] [INFO] Booting worker with pid: 5372
+[2025-02-15 21:32:38 +0530] [5373] [INFO] Booting worker with pid: 5373
+[2025-02-15 21:32:54 +0530] [5367] [INFO] Handling signal: int
+[2025-02-15 21:32:54 +0530] [5371] [INFO] Worker exiting (pid: 5371)
+[2025-02-15 21:32:54 +0530] [5373] [INFO] Worker exiting (pid: 5373)
+[2025-02-15 21:32:54 +0530] [5372] [INFO] Worker exiting (pid: 5372)
+[2025-02-15 21:32:54 +0530] [5370] [INFO] Worker exiting (pid: 5370)
+[2025-02-15 21:32:55 +0530] [5367] [INFO] Shutting down: Master
+[2025-02-15 21:37:19 +0530] [5487] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 21:37:21 +0530] [5487] [INFO] Listening at: http://0.0.0.0:8080 (5487)
+[2025-02-15 21:37:21 +0530] [5487] [INFO] Using worker: sync
+[2025-02-15 21:37:21 +0530] [5490] [INFO] Booting worker with pid: 5490
+[2025-02-15 21:37:21 +0530] [5491] [INFO] Booting worker with pid: 5491
+[2025-02-15 21:37:21 +0530] [5492] [INFO] Booting worker with pid: 5492
+[2025-02-15 21:37:21 +0530] [5493] [INFO] Booting worker with pid: 5493
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /home HTTP/1.1" 200 671048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:02 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /home HTTP/1.1" 200 671048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:13 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /home HTTP/1.1" 200 671048 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:24 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:21:38:25 +0530] "GET /static/pin_32.png HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-15 21:39:11 +0530] [5487] [INFO] Handling signal: int
+[2025-02-15 21:39:11 +0530] [5492] [INFO] Worker exiting (pid: 5492)
+[2025-02-15 21:39:11 +0530] [5490] [INFO] Worker exiting (pid: 5490)
+[2025-02-15 21:39:11 +0530] [5491] [ERROR] Error handling request (no URI read)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/workers/sync.py", line 133, in handle
+    req = next(parser)
+          ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/parser.py", line 41, in __next__
+    self.mesg = self.mesg_class(self.cfg, self.unreader, self.source_addr, self.req_count)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/message.py", line 259, in __init__
+    super().__init__(cfg, unreader, peer_addr)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/message.py", line 60, in __init__
+    unused = self.parse(self.unreader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/message.py", line 271, in parse
+    self.get_data(unreader, buf, stop=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/message.py", line 262, in get_data
+    data = unreader.read()
+           ^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 36, in read
+    d = self.chunk()
+        ^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/http/unreader.py", line 63, in chunk
+    return self.sock.recv(self.mxchunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/workers/base.py", line 198, in handle_quit
+    time.sleep(0.1)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/gunicorn/workers/base.py", line 199, in handle_quit
+    sys.exit(0)
+SystemExit: 0
+[2025-02-15 21:39:11 +0530] [5491] [INFO] Worker exiting (pid: 5491)
+[2025-02-15 21:39:41 +0530] [5487] [ERROR] Worker (pid:5493) was sent SIGKILL! Perhaps out of memory?
+[2025-02-15 21:39:41 +0530] [5487] [INFO] Shutting down: Master
+[2025-02-15 21:43:20 +0530] [5732] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 21:43:21 +0530] [5732] [INFO] Listening at: http://0.0.0.0:8080 (5732)
+[2025-02-15 21:43:21 +0530] [5732] [INFO] Using worker: sync
+[2025-02-15 21:43:21 +0530] [5735] [INFO] Booting worker with pid: 5735
+[2025-02-15 21:43:21 +0530] [5736] [INFO] Booting worker with pid: 5736
+[2025-02-15 21:43:21 +0530] [5737] [INFO] Booting worker with pid: 5737
+[2025-02-15 21:43:21 +0530] [5738] [INFO] Booting worker with pid: 5738
+[2025-02-15 21:44:03 +0530] [5732] [INFO] Handling signal: int
+[2025-02-15 21:44:03 +0530] [5735] [INFO] Worker exiting (pid: 5735)
+[2025-02-15 21:44:03 +0530] [5737] [INFO] Worker exiting (pid: 5737)
+[2025-02-15 21:44:03 +0530] [5736] [INFO] Worker exiting (pid: 5736)
+[2025-02-15 21:44:03 +0530] [5738] [INFO] Worker exiting (pid: 5738)
+[2025-02-15 21:44:04 +0530] [5732] [INFO] Shutting down: Master
+[2025-02-15 23:57:09 +0530] [7831] [INFO] Starting gunicorn 23.0.0
+[2025-02-15 23:57:12 +0530] [7831] [INFO] Listening at: http://0.0.0.0:8080 (7831)
+[2025-02-15 23:57:12 +0530] [7831] [INFO] Using worker: sync
+[2025-02-15 23:57:12 +0530] [7834] [INFO] Booting worker with pid: 7834
+[2025-02-15 23:57:12 +0530] [7835] [INFO] Booting worker with pid: 7835
+[2025-02-15 23:57:12 +0530] [7836] [INFO] Booting worker with pid: 7836
+[2025-02-15 23:57:12 +0530] [7837] [INFO] Booting worker with pid: 7837
+127.0.0.1 - - [15/Feb/2025:23:57:40 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:57:41 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [15/Feb/2025:23:58:14 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:14 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/fontawesome/regular.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/fontawesome/brands.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/fontawesome/v4-shims.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/fontawesome/solid.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/bootstrap.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/fontawesome/fontawesome.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/bootstrap-datepicker/bootstrap-datepicker3.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/select2/select2.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/select2/select2-bootstrap.min.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/flags/flags16.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/ab.css HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/jquery-latest.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/ab_filters.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/ab_actions.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/bootstrap-datepicker/bootstrap-datepicker.min.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/bootstrap.min.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/ab.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/js/select2/select2.min.js HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:15 +0530] "GET /static/appbuilder/css/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+127.0.0.1 - - [15/Feb/2025:23:58:16 +0530] "GET /static/appbuilder/css/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 0 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15"
+[2025-02-15 23:59:58 +0530] [7831] [INFO] Handling signal: int
+[2025-02-15 23:59:59 +0530] [7834] [INFO] Worker exiting (pid: 7834)
+[2025-02-15 23:59:59 +0530] [7836] [INFO] Worker exiting (pid: 7836)
+[2025-02-15 23:59:59 +0530] [7837] [INFO] Worker exiting (pid: 7837)
+[2025-02-15 23:59:59 +0530] [7835] [INFO] Worker exiting (pid: 7835)
+[2025-02-16 00:00:00 +0530] [7831] [INFO] Shutting down: Master
+[2025-02-16 00:18:08 +0530] [13363] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:18:09 +0530] [13363] [INFO] Listening at: http://0.0.0.0:8080 (13363)
+[2025-02-16 00:18:09 +0530] [13363] [INFO] Using worker: sync
+[2025-02-16 00:18:09 +0530] [13369] [INFO] Booting worker with pid: 13369
+[2025-02-16 00:18:09 +0530] [13370] [INFO] Booting worker with pid: 13370
+[2025-02-16 00:18:09 +0530] [13371] [INFO] Booting worker with pid: 13371
+[2025-02-16 00:18:09 +0530] [13372] [INFO] Booting worker with pid: 13372
+127.0.0.1 - - [16/Feb/2025:00:18:35 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:36 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:41 +0530] "GET /dags/example_params_trigger_ui/code HTTP/1.1" 302 277 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /dags/example_params_trigger_ui/grid?tab=code HTTP/1.1" 200 9664 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/grid.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:42 +0530] "GET /static/dag.js HTTP/1.1" 404 456 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /home HTTP/1.1" 200 671447 "http://localhost:8080/dags/example_params_trigger_ui/grid?tab=code" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:51 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:53 +0530] "GET /dags/conditional_dataset_and_time_based_timetable/grid HTTP/1.1" 200 9393 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/grid.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:54 +0530] "GET /static/dag.js HTTP/1.1" 404 456 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /home HTTP/1.1" 200 671447 "http://localhost:8080/dags/conditional_dataset_and_time_based_timetable/grid" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:18:58 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:36:52 +0530] [13363] [INFO] Handling signal: int
+[2025-02-16 00:36:52 +0530] [13370] [INFO] Worker exiting (pid: 13370)
+[2025-02-16 00:36:52 +0530] [13371] [INFO] Worker exiting (pid: 13371)
+[2025-02-16 00:36:52 +0530] [13369] [INFO] Worker exiting (pid: 13369)
+[2025-02-16 00:36:52 +0530] [13372] [INFO] Worker exiting (pid: 13372)
+[2025-02-16 00:36:53 +0530] [13363] [INFO] Shutting down: Master
+[2025-02-16 00:37:13 +0530] [14805] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:37:14 +0530] [14805] [INFO] Listening at: http://0.0.0.0:8080 (14805)
+[2025-02-16 00:37:14 +0530] [14805] [INFO] Using worker: sync
+[2025-02-16 00:37:14 +0530] [14808] [INFO] Booting worker with pid: 14808
+[2025-02-16 00:37:14 +0530] [14809] [INFO] Booting worker with pid: 14809
+[2025-02-16 00:37:14 +0530] [14810] [INFO] Booting worker with pid: 14810
+[2025-02-16 00:37:14 +0530] [14811] [INFO] Booting worker with pid: 14811
+127.0.0.1 - - [16/Feb/2025:00:37:19 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:20 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:27 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:37:28 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:37:43 +0530] [14805] [INFO] Handling signal: int
+[2025-02-16 00:37:43 +0530] [14809] [INFO] Worker exiting (pid: 14809)
+[2025-02-16 00:37:43 +0530] [14811] [INFO] Worker exiting (pid: 14811)
+[2025-02-16 00:38:13 +0530] [14805] [ERROR] Worker (pid:14808) was sent SIGKILL! Perhaps out of memory?
+[2025-02-16 00:38:13 +0530] [14805] [ERROR] Worker (pid:14810) was sent SIGKILL! Perhaps out of memory?
+[2025-02-16 00:38:13 +0530] [14805] [INFO] Shutting down: Master
+[2025-02-16 00:41:42 +0530] [14952] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:41:43 +0530] [14952] [INFO] Listening at: http://0.0.0.0:8080 (14952)
+[2025-02-16 00:41:43 +0530] [14952] [INFO] Using worker: sync
+[2025-02-16 00:41:43 +0530] [14956] [INFO] Booting worker with pid: 14956
+[2025-02-16 00:41:44 +0530] [14957] [INFO] Booting worker with pid: 14957
+[2025-02-16 00:41:44 +0530] [14958] [INFO] Booting worker with pid: 14958
+[2025-02-16 00:41:44 +0530] [14959] [INFO] Booting worker with pid: 14959
+127.0.0.1 - - [16/Feb/2025:00:41:52 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:41:53 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:43:11 +0530] [14952] [INFO] Handling signal: int
+[2025-02-16 00:43:11 +0530] [14957] [INFO] Worker exiting (pid: 14957)
+[2025-02-16 00:43:11 +0530] [14959] [INFO] Worker exiting (pid: 14959)
+[2025-02-16 00:43:11 +0530] [14958] [INFO] Worker exiting (pid: 14958)
+[2025-02-16 00:43:11 +0530] [14956] [INFO] Worker exiting (pid: 14956)
+[2025-02-16 00:43:12 +0530] [14952] [INFO] Shutting down: Master
+[2025-02-16 00:48:25 +0530] [15982] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:48:27 +0530] [15982] [INFO] Listening at: http://0.0.0.0:8080 (15982)
+[2025-02-16 00:48:27 +0530] [15982] [INFO] Using worker: sync
+[2025-02-16 00:48:27 +0530] [15985] [INFO] Booting worker with pid: 15985
+[2025-02-16 00:48:27 +0530] [15986] [INFO] Booting worker with pid: 15986
+[2025-02-16 00:48:27 +0530] [15987] [INFO] Booting worker with pid: 15987
+[2025-02-16 00:48:27 +0530] [15988] [INFO] Booting worker with pid: 15988
+127.0.0.1 - - [16/Feb/2025:00:48:40 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:48:41 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:51:59 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:52:00 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:52:00 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:52:00 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:52:24 +0530] [15982] [INFO] Handling signal: int
+[2025-02-16 00:52:24 +0530] [15987] [INFO] Worker exiting (pid: 15987)
+[2025-02-16 00:52:24 +0530] [15986] [INFO] Worker exiting (pid: 15986)
+[2025-02-16 00:52:24 +0530] [15988] [INFO] Worker exiting (pid: 15988)
+[2025-02-16 00:52:24 +0530] [15985] [INFO] Worker exiting (pid: 15985)
+[2025-02-16 00:52:25 +0530] [15982] [INFO] Shutting down: Master
+[2025-02-16 00:53:31 +0530] [16409] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:53:32 +0530] [16409] [INFO] Listening at: http://0.0.0.0:8080 (16409)
+[2025-02-16 00:53:32 +0530] [16409] [INFO] Using worker: sync
+[2025-02-16 00:53:32 +0530] [16433] [INFO] Booting worker with pid: 16433
+[2025-02-16 00:53:32 +0530] [16434] [INFO] Booting worker with pid: 16434
+[2025-02-16 00:53:32 +0530] [16435] [INFO] Booting worker with pid: 16435
+[2025-02-16 00:53:32 +0530] [16436] [INFO] Booting worker with pid: 16436
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:33 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:37 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:53:38 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:54:25 +0530] [16409] [INFO] Handling signal: int
+[2025-02-16 00:54:25 +0530] [16434] [INFO] Worker exiting (pid: 16434)
+[2025-02-16 00:54:25 +0530] [16435] [INFO] Worker exiting (pid: 16435)
+[2025-02-16 00:54:25 +0530] [16436] [INFO] Worker exiting (pid: 16436)
+[2025-02-16 00:54:55 +0530] [16409] [ERROR] Worker (pid:16433) was sent SIGKILL! Perhaps out of memory?
+[2025-02-16 00:54:55 +0530] [16409] [INFO] Shutting down: Master
+[2025-02-16 00:59:31 +0530] [17585] [INFO] Starting gunicorn 23.0.0
+[2025-02-16 00:59:33 +0530] [17585] [INFO] Listening at: http://0.0.0.0:8080 (17585)
+[2025-02-16 00:59:33 +0530] [17585] [INFO] Using worker: sync
+[2025-02-16 00:59:33 +0530] [17625] [INFO] Booting worker with pid: 17625
+[2025-02-16 00:59:33 +0530] [17627] [INFO] Booting worker with pid: 17627
+[2025-02-16 00:59:33 +0530] [17628] [INFO] Booting worker with pid: 17628
+[2025-02-16 00:59:33 +0530] [17629] [INFO] Booting worker with pid: 17629
+127.0.0.1 - - [16/Feb/2025:00:59:41 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:42 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:44 +0530] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /home HTTP/1.1" 200 671447 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/airflowDefaultTheme.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/materialIcons.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/loadingDots.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/bootstrap-datetimepicker.min.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/dags.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/switch.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/flash.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/moment.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/main.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/bootstrap-datetimepicker.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/bootstrap3-typeahead.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/toggleTheme.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/d3.min.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/dags.js HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Feb/2025:00:59:45 +0530] "GET /static/main.css HTTP/1.1" 404 456 "http://localhost:8080/home" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+[2025-02-16 00:59:59 +0530] [17585] [INFO] Handling signal: int
+[2025-02-16 00:59:59 +0530] [17628] [INFO] Worker exiting (pid: 17628)
+[2025-02-16 00:59:59 +0530] [17627] [INFO] Worker exiting (pid: 17627)
+[2025-02-16 00:59:59 +0530] [17625] [INFO] Worker exiting (pid: 17625)
+[2025-02-16 01:00:29 +0530] [17585] [ERROR] Worker (pid:17629) was sent SIGKILL! Perhaps out of memory?
+[2025-02-16 01:00:30 +0530] [17585] [INFO] Shutting down: Master
