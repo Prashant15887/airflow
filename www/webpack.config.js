@@ -32,10 +32,13 @@ const TerserPlugin = require("terser-webpack-plugin");
 // noinspection JSUnresolvedVariable
 const CSS_DIR = path.resolve(__dirname, "./static/css");
 const JS_DIR = path.resolve(__dirname, "./static/js");
+// const CSS_DIR = path.resolve(__dirname, "static/css");
+// const JS_DIR = path.resolve(__dirname, "static/js");
 
 // Output Directory (airflow/www/static/dist)
 // noinspection JSUnresolvedVariable
-const BUILD_DIR = path.resolve(__dirname, "./static/dist");
+// const BUILD_DIR = path.resolve(__dirname, "./static/dist");
+const BUILD_DIR = path.resolve(__dirname, "static/dist");
 
 // Convert licenses json into a standard format for LICENSES.txt
 const formatLicenses = (packages) => {
@@ -66,6 +69,7 @@ const config = {
     flash: `${CSS_DIR}/flash.css`,
     graph: `${CSS_DIR}/graph.css`,
     loadingDots: `${CSS_DIR}/loading-dots.css`,
+    //loadingDots: `/Users/prashantsingh/workspace/apache-airflow-2.10.4/airflow/www/static/css/loading-dots.css`,
     main: [`${CSS_DIR}/main.css`, `${JS_DIR}/main.js`],
     materialIcons: `${CSS_DIR}/material-icons.css`,
     moment: "moment-timezone",
